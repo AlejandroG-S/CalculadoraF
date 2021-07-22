@@ -1,0 +1,27 @@
+.contenedor{
+    position: absolute;
+    top: 20%;
+    left: 40%
+}
+
+.interno-one{
+    position: absolute;
+    left: 2%;
+}
+
+.interno-two{
+    position: absolute;
+    left: 50%;
+}
+
+.botones_d{
+    position: absolute;
+    top: 150%;
+    left: 18%;
+}
+
+.res{
+    position: absolute;
+    top: 170%;
+    left: 35%;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+      <div class="contenedor">
+        <h1>Digite los numeros a operar</h1>
+        <div class="interno-one"> 
+            <input type="number" [(ngModel)]="num1">        
+        </div>
+        <div class="interno-two">
+          <input type="number" [(ngModel)]="num2">    
+        </div>
+        <div class="botones_d">
+          <button (click)="Sumar()">Sumar</button>
+          <button (click)="Restar()">Restar</button>
+          <button (click)="Multiplicar()">Multiplicar</button>
+          <button (click)="Dividir()">Dividir</button>
+        </div>
+        <div class="res">
+          <p *ngIf="existe">El resultado es: {{res}}</p>
+        </div>
+      </div>   
+    </body>
+</html>
